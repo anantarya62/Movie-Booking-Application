@@ -5,16 +5,20 @@
     font-size: 1rem;
 }
 
-#movie-poster {
+.movie-poster {
     height: 100%;  
     width: auto;       
 }
-#flex-container {
+.flex-container {
     display: flex;
 }
-#flex-container>div {
+.flex-container>div {
     margin: 16px;
 }
 div.left{
     width: 76%;
+}
+.right {
+    padding-top: 20px;
+    width: 24%;
 }
